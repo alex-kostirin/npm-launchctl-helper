@@ -23,7 +23,7 @@ $ npm test
 
 ## API
 
- [Documentation](http://evanlucas.github.io/node-launchctl)
+ [Documentation](https://alex-kostirin.github.io/npm-launchctl-helper/doc/)
 
 ## TODO
 
