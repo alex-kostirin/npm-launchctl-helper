@@ -15,7 +15,11 @@
     "daemon"
   ],
   "author": "Alexey Kostyrin",
-  "license": "ISC",
+  "license": "GPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-kostirin/npm-launchctl-helper.git"
+  },
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
