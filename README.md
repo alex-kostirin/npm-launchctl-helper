@@ -25,9 +25,6 @@ $ npm test
 
  [Documentation](https://alex-kostirin.github.io/npm-launchctl-helper/doc/)
 
-## TODO
-
-- Make API more complete
 
 ## Contributions
 
