@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npm run build && mocha $NODE_DEBUG_OPTION dist/test",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log,./index.js,./readme.md --copy-files",
-    "doc": "rimraf build/ && jsdoc -d ./doc/ launchctl.js"
+    "doc": "rimraf build/ && jsdoc -d ./doc/ launchctl.js",
+    "postinstall": "npm run build"
   },
   "keywords": [
     "launchctl",
